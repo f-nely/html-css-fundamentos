@@ -1,0 +1,17 @@
+h1 {
+	color: lightblue;
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+h2 {
+	border: 5px green solid;
+}
+
+a {
+	color: blue;
+	background-color: darkgreen;
+}
+
+/*comentário em css*/
