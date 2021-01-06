@@ -1,13 +1,30 @@
-h1, h2 {
+h1{
 	color: lightblue;
 	font-family: verdana;
 	font-size: 20px;
 }
 
-input[type="number"] {
-	background: #E0FFFF;
-	color:#008B8B;
+a:active {
+	color: #FFDAB9;
 }
 
+h1:empty {
+	border: #9370DB solid 5px;
+}
 
+input:checked + a {
+	color: #F4A460;
+}
+
+input:disabled {
+	background: #556B2F;
+}
+
+input:focus {
+	background: red;
+}
+
+input:hover {
+	background: #808080;
+}
 /*comentário em css*/
