@@ -4,7 +4,7 @@ h1 {
 	font-size: 20px;
 }
 
-li > span {
+h1 + span {
 	background: #E0FFFF;
 	color:#008B8B;
 }
