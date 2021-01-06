@@ -1,10 +1,10 @@
-h1 {
+h1, h2 {
 	color: lightblue;
 	font-family: verdana;
 	font-size: 20px;
 }
 
-h1 + span {
+h1 ~ span {
 	background: #E0FFFF;
 	color:#008B8B;
 }
