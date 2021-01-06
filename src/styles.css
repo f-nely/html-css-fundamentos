@@ -4,18 +4,29 @@ h1{
 	font-size: 20px;
 }
 
-li:first-child {
+/*seleciona os pares*/
+li:nth-child(even) {
 	background: #ADD8E6;
 	color: #9ACD32;
 }
 
-li:last-child {
-	background: #ADD8E6;
-	color: #9ACD32;
+/*seleciona os ímpares*/
+li:nth-child(odd) {
+	background: #B0E0E6;
+	color: #FF8C00;
 }
 
-li:nth-child(2) {
-	background: #ADD8E6;
-	color: #9ACD32;
-}
+/*
+	Resumo
+	Seletores de Relacionamento
+	div p - seleciona todos os elementos <p> que estejam dentro do elemento <div>. 
+	Não importa se <p> é filho de outro elemento que não seja <div>.
+	
+	div > p - seleciona todos os elementos <p> que o pai seja <div>. 
+	Nesse caso é obrigatório o <p> ser filho direto da <div>.
+	
+	div + p - seleciona todos os elementos <p> que são precedidos por uma tag <div>.
+    Se houver algo separando as duas tags, essa seleção não funcionará.
 
+    div ~ p - Seleciona todos os elementos <p> que são precedidos por uma tag.
+*/
