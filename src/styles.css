@@ -4,7 +4,7 @@ h1, h2 {
 	font-size: 20px;
 }
 
-input[readonly] {
+input[type="number"] {
 	background: #E0FFFF;
 	color:#008B8B;
 }
