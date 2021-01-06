@@ -4,27 +4,18 @@ h1{
 	font-size: 20px;
 }
 
-a:active {
-	color: #FFDAB9;
+li:first-child {
+	background: #ADD8E6;
+	color: #9ACD32;
 }
 
-h1:empty {
-	border: #9370DB solid 5px;
+li:last-child {
+	background: #ADD8E6;
+	color: #9ACD32;
 }
 
-input:checked + a {
-	color: #F4A460;
+li:nth-child(2) {
+	background: #ADD8E6;
+	color: #9ACD32;
 }
 
-input:disabled {
-	background: #556B2F;
-}
-
-input:focus {
-	background: red;
-}
-
-input:hover {
-	background: #808080;
-}
-/*comentário em css*/
