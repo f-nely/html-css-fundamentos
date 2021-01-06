@@ -4,12 +4,9 @@ h1 {
 	font-size: 20px;
 }
 
-#contato {
-	color: #66CDAA;
-}
-
-.contato {
-	color: #FFE4B5;
+li > span {
+	background: #E0FFFF;
+	color:#008B8B;
 }
 
 
