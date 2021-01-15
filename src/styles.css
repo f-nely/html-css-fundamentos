@@ -1,32 +1,26 @@
-h1{
-	color: lightblue;
+
+body {
+	background: rgb(30, 110, 65);
+}
+
+h1 {
 	font-family: verdana;
 	font-size: 20px;
-}
-
-/*seleciona os pares*/
-li:nth-child(even) {
-	background: #ADD8E6;
-	color: #9ACD32;
-}
-
-/*seleciona os ímpares*/
-li:nth-child(odd) {
-	background: #B0E0E6;
-	color: #FF8C00;
+	background: rgba(0, 0, 0, 0.5);
+	color: hsl(120, 100%, 50%);
+	border: 5px double rebeccapurple;
+	opacity: .6;
 }
 
 /*
-	Resumo
-	Seletores de Relacionamento
-	div p - seleciona todos os elementos <p> que estejam dentro do elemento <div>. 
-	Não importa se <p> é filho de outro elemento que não seja <div>.
-	
-	div > p - seleciona todos os elementos <p> que o pai seja <div>. 
-	Nesse caso é obrigatório o <p> ser filho direto da <div>.
-	
-	div + p - seleciona todos os elementos <p> que são precedidos por uma tag <div>.
-    Se houver algo separando as duas tags, essa seleção não funcionará.
-
-    div ~ p - Seleciona todos os elementos <p> que são precedidos por uma tag.
+Cores
+Tipo Descricão Exemplo
+RGB Valores de vermelho, verde e azul de 0 a 255 rgb(122, 65, 253)
+RGBA RGB com canal alpha rgba(122, 65, 253, .5)
+Hexadecimal Valores de vermelho, verde e azul de 00 a FF #35F2BC
+Hexadecimal + A Hexadecimal com canal alpha #35F2BC23
+HSL Cor definida pela matiz, saturação e brilho hsl(90, 100%, 50%)
+HSLA HSL com canal alpha hsla(240, 100%, 50%, .4)
 */
+
+
