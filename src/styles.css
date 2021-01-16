@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@font-face {
-	font-family: IBMPlexMono;
-	src:url("fonts/IBMPlexMono-Light.ttf");
+
+p {
+	font-family: Verdana;
+	font-size: 14px;
+	color: #1E90FF;
+	/*font-style: italic;*/
+	font-weight: normal;
+	text-align: justify;
+	/*text-decoration: underline;*/
+	/*text-transform: uppercase;*/
+	/*text-indent: 15px;*/
 }
 
-p, h1 {
-	font-family: 'Playfair Display', serif;
+h1 {
+	color: #7B68EE;
 }
 
 
