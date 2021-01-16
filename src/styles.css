@@ -1,6 +1,11 @@
 
-p {
-	font-family: Arial, Helvetica, sans-serif;
+@font-face {
+	font-family: IBMPlexMono;
+	src:url("fonts/IBMPlexMono-Light.ttf");
+}
+
+p, h1 {
+	font-family: IBMPlexMono;
 }
 
 
