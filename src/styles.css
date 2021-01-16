@@ -1,11 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @font-face {
 	font-family: IBMPlexMono;
 	src:url("fonts/IBMPlexMono-Light.ttf");
 }
 
 p, h1 {
-	font-family: 'Fraunces', serif;
+	font-family: 'Playfair Display', serif;
 }
 
 
